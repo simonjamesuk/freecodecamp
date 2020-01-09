@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Chilanka:400,500);
+
+body {
+  background-color: rgb(244, 235, 156);
+  font-family: 'Chilanka', tahoma;
+  min-width: 320px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  border-radius: 5px;
+  border-width: 3px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgb(211,211,211);
+}
+
+#survey-form {
+  background-color: lightgray;
+  padding: 3px;
+  padding-top: 15px;
+  margin: auto;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 5px 10px #888888;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 10px;
+}
+/*grid layout is 6 columns wide and unlimited rows     */
+
+.name1 {
+  grid-column: 2/4;
+  grid-row: 1;
+  text-align: right;
+  vertical-align: center;
+  padding: 10px;
+  background-color: blue;
+}
+
+.name2 {
+  grid-column: 4/6;
+  grid-row: 1;
+  text-align: right;
+  vertical-align: center;
+  padding: 10px;
+  background-color: blue;
+}
+
+.input-field {
+  display: block;
+  height: 20px;
+  width: 250px;
+  background-color: orange;
+}
+
+.email1 {
+  grid-column: 2/ 4;
+  grid-row: 2;
+  text-align: right;
+  vertical-align: center;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.email2 {
+  grid-column: 4/ 6;
+  grid-row: 2;
+  text-align: left;
+  vertical-align: center;
+  padding: 10px;
+  background-color: yellow;
+}
+
+.age1 {
+  grid-column: 2/ 4;
+  grid-row: 3;
+  text-align: right;
+  vertical-align: top;
+  padding: 10px;
+  background-color: green;
+}
+
+.age2 {
+  grid-column: 4/ 6;
+  grid-row: 3;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  background-color: green;
+}
+
+.exp1 {
+  grid-column: 2/ 4;
+  grid-row: 4;
+  text-align: right;
+  vertical-align: top;
+  padding: 10px;
+  background-color: pink;
+}
+
+.exp2 {
+  grid-column: 4/ 6;
+  grid-row: 4;
+  text-align: top;
+  vertical-align: top;
+  padding: 10px;
+  background-color: pink;
+}
+
+.rate1 {
+  grid-column: 2/ 4;
+  grid-row: 5;
+  text-align: right;
+  vertical-align: top;
+  padding: 10px;
+  background-color: purple;
+}
+
+.rate2 {
+  grid-column: 4/ 6;
+  grid-row: 5;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  background-color: purple;
+}
+
+.number1 {
+  grid-column: 2/ 4;
+  grid-row: 6;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  background-color: cyan;
+}
+
+.number2 {
+  grid-column: 4/ 6;
+  grid-row: 6;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px;
+  background-color: cyan;
+}
+
+.textarea {
+  grid-column: 2/ 5;
+  grid-row: 7;
+}
+
+.radio, .checkbox {
+  position: relative;
+}
+
+.button {
+  grid-column: 3/ 5;
+  grid-row: 8;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}

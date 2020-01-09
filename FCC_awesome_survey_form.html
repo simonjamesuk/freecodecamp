@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="FCC_awesome_survey_form.css" media="screen" />
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<html>
+<!--this opens the header-->
+<header>
+  <!--this opens the h1 and adds the title-->
+  <h1 id="title">Just exactly how cool <i>IS</i> MyFreeCodeCamp?</h1>
+  <!--this closes the h1 tag-->
+</header>
+<!--this closes the header tag-->
+<!--this open a p tag and adds the description text-->
+<p id="description">We put MyFreeCodeCamp to the test in this super awesome survey</p>
+<!--this closes the p tag-->
+<body>
+<!--this opens the form-->
+<form id="survey-form" method="GET" action="">
+  <!--this div 1 adds the 1st form row-->
+  <div class="name1">
+  <label id="name-label" for="name">
+    * Name:
+	</label>
+  </div>
+  <!--this closes the div 1 tag-->
+  <!--this adds the 1st row data-->
+  <div class="name2">
+    <input autofocus type="text" name="name" id="name" placeholder="e.g Joe Bloggs" min="1" max="120" class="input-field" required>
+  </div>
+  <!--this adds the 2nd row-->
+  <div class="email1">
+    <label id="email-label" for="email">
+    * Email:
+    </label>
+  </div>
+  <!--this adds the 2nd row data-->
+  <div class="email2">
+    <input type="email" class="input-field" required placeholder="name@domain.com" id="email">
+  </div>
+  <!--this adds the 3rd row-->
+  <div class="age1">
+    <!--this asigns the label-->
+    <div class="labels">
+      <!--this asigns the label-->
+      <label for="ageRange">
+    * Age range:
+      </label>
+    </div>
+  </div>
+  <!--this adds the 3rd row data-->
+  <div class="age2">
+    <ul style="list-style: none;">
+      <li class="radio"><label><input name="age" type="radio" value="1">Under 18</label></li>
+      <li class="radio"><label><input name="age" type="radio" value="2">18-25</label></li>
+      <li class="radio"><label><input name="age" type="radio" value="3">26-35</label></li>
+      <li class="radio"><label><input name="age" type="radio" value="4">36-49</label></li>
+      <li class="radio"><label><input name="age" type="radio" value="5">50+</label></li>
+    </ul>
+  </div>
+  <!--this adds the 4th row-->
+  <div class="exp1">
+    <label>
+    Prior experience:
+    </label>
+  </div>
+  <!--this adds the 4th row data-->
+  <div class="exp2">
+    <ul style="list-style: none;">
+      <li class="checkbox"><label><input name="exp" type="checkbox" value="1">None</label></li>
+      <li class="checkbox"><label><input name="exp" type="checkbox" value="2">Basic HTML</label></li>
+      <li class="checkbox"><label><input name="exp" type="checkbox" value="3">CSS</label></li>
+      <li class="checkbox"><label><input name="exp" type="checkbox" value="4">Javascript</label></li>
+      <li class="checkbox"><label><input name="exp" type="checkbox" value="5">Everything</label></li>
+    </ul>
+  </div>
+  <div class="rate1">
+  How would you rate MyFreeCodeCamp:
+  </div>
+  <div class="rate2">
+  <select name="Rating" id="dropdown">
+   <option value="Poor">Poor</option>
+   <option value="Good">Good</option>
+   <option value="Awesome">Awesome</option>
+  </select>
+  </div>
+  <div class="number1"><label id="number-label" for="number">On a scale of 1 - 10, how likely would you be to recommend to a friend:</label>
+  </div>
+  <div class="number2">
+    <input type="number" class="input-field" name="number" placeholder="1 to 10" required min="1" max="10" id="number">
+	</div>
+	<div class="textarea">
+  <textarea id="comments" class="input-field" placeholder="Input comments here..."></textarea>
+  </div>
+  <!--this adds the submit button-->
+  <button class="button" type="submit" id="submit">Submit</button>
+</form>
+</body>
+</html>

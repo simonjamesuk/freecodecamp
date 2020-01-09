@@ -1,0 +1,26 @@
+<html>
+
+<title>
+    Cezanne, Post-impressionism
+  </title>
+  <style>
+  </style>
+    <header>
+    </header>
+  <main>
+    <h1>Paul Cezanne</h1>
+    <div id="img-div">
+    <img src="https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne#/media/File:Paul_cezanne_1861.jpg" alt="Portrait of Paul Cezane" id="image"/>
+    </div>
+      <div>
+    <ul>
+      <li>Born: 19<sup>th</sup> January 1839</li>
+      <li>Studied under Joseph Gibert, a Spanish monk</li>
+      <li>Died: 22<sup>nd</sup> October 1906</li>
+    </ul>
+    </div>
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne" target="_blank">View the full article on Wikipedia</a>
+  </main>
+  <footer>
+  </footer>
+  </html>
