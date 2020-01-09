@@ -159,28 +159,25 @@ html {
 
 body {
     background-color: darkslategrey;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.4rem;
 }
 
-h1 {
-    font-size: 6rem;
+#wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Navigation */
 
-nav {
+.navbar {
     background-color: rgb(103, 145, 117);
     display: flex;
-    position: fixed;
     justify-content: flex-end;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 10px;
     overflow: hidden;
-    float: left;
 }
 
 .nav-list {
@@ -192,42 +189,50 @@ ul {
     list-style: none;
 }
 
-#navbar li a {
+.navbar li a {
     text-decoration: none;
     color: darkviolet;
     padding: 2rem;
 }
 
-#navbar li a:hover {
+.navbar li a:hover {
     background-color: rgb(252, 193, 0);
 }
 
 /*  welcome section  */
 
 .welcome-section {
-    display: block;
+    display: flex;
+    align-self: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     width: 100%;
+    height: 50vh;
     background-color: lightcoral;
 }
 
-.welcome-logo {
-    width: 50%;
+.welcome-section h1 {
+    font-size: 4rem;
+    padding: 10%;
+    text-align: center;
+}
+
+.welcome-section p {
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1em;
+    border: blueviolet 1px;
+    background-color: chartreuse;
 }
 
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     width: 100%;
     height: 80vh;
-    padding: 0 2rem;
     text-align: left;
+    background-color: cornsilk;
 }
 
 .contact-section-header {
