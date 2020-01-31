@@ -158,7 +158,7 @@ html {
 }
 
 body {
-    background-color: darkslategrey;
+    background-color: #E9E2D0;
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.4rem;
@@ -172,7 +172,7 @@ body {
 /* Navigation */
 
 .navbar {
-    background-color: rgb(103, 145, 117);
+    background-color: #6E5773;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -191,7 +191,7 @@ ul {
 
 .navbar li a {
     text-decoration: none;
-    color: darkviolet;
+    color: white;
     padding: 2rem;
 }
 
@@ -207,7 +207,7 @@ ul {
     flex-direction: column;
     width: 100%;
     height: 50vh;
-    background-color: lightcoral;
+    background-color: #D45D79;
 }
 
 .welcome-section h1 {
@@ -225,7 +225,7 @@ ul {
     grid-template-columns: 2fr 2fr;
     gap: 1em;
     border: blueviolet 1px;
-    background-color: chartreuse;
+    background-color: #EA9085;
 }
 
 .contact-section {
