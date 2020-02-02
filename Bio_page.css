@@ -173,9 +173,9 @@ body {
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
     html {
-      font-size: 60%;
+        font-size: 60%;
     }
-  }
+}
 
 /* Navigation */
 
@@ -184,7 +184,7 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     overflow: hidden;
 }
 
@@ -226,6 +226,9 @@ ul {
 
 .welcome-section p {
     text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    color: slateblue;
 }
 
 .projects-section {
