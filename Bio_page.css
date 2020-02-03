@@ -114,7 +114,7 @@ section {
 /* Set the global page color scheme */
 :root {
     --main-white: #f0f0f0;
-    --main-grey: ;
+    --main-grey: #3a3b3a;
     --main-green: #9FB8AD;
 }
 
@@ -287,12 +287,24 @@ ul {
 }
 
 .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 40vh;
+    color: var(--main-white);
     text-align: left;
     background-color: #3a3b3a;
 }
 
 .contact-section-header {
     font-style: bold;
+}
+
+footer {
+    background-color: var(--main-grey);
+    padding: 2rem;
+    border-top: 4px solid var(--main-green);
+    color: var(--main-white);
+    text-align: center;
 }
