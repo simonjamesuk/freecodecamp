@@ -299,28 +299,46 @@ ul {
     width: 100%;
     height: 40vh;
     color: var(--main-white);
-    text-align: left;
     background-color: #3a3b3a;
 }
 
+.contact-section a {
+    text-decoration: none;
+    color: var(--main-white);
+}
+
 .contact-section-header {
+    display: flex;
+    flex-direction: row;
     font-style: bold;
+    border: 5px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-means {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
 }
 
 .btn-github {
-    color: #181717;
+    fill: #181717;
 }
 
 .btn-facebook {
-    color: #1877f2;
+    fill: #1877f2;
 }
 
 .btn-gmail {
-    color: #d14836;
+    fill: #d14836;
 }
 
 .btn-whatsapp {
-    color: #25d366;
+    fill: #25d366;
 }
 
 footer {
