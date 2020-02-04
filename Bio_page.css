@@ -244,6 +244,11 @@ ul {
     color: slateblue;
 }
 
+.welcome-section a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #scroll-click {
     font-size: 2rem;
     margin-top: 5rem;
@@ -271,6 +276,7 @@ ul {
 .project-tile {
     display: block;
     background-color: gray;
+    color: var(--main-white);
     margin: 4px;
     padding: 4px;
 }
@@ -299,6 +305,22 @@ ul {
 
 .contact-section-header {
     font-style: bold;
+}
+
+.btn-github {
+    color: #181717;
+}
+
+.btn-facebook {
+    color: #1877f2;
+}
+
+.btn-gmail {
+    color: #d14836;
+}
+
+.btn-whatsapp {
+    color: #25d366;
 }
 
 footer {
