@@ -216,6 +216,7 @@ h2 {
     width: 100%;
     padding: 15px;
     overflow: hidden;
+    position: fixed;
 }
 
 .nav-list {
@@ -357,7 +358,7 @@ ul {
 }
 
 svg {
-    width: 100px;
+    width: 150px;
     height: 100px;
     margin-bottom: 6px;
 }
@@ -374,8 +375,8 @@ svg {
     fill: #d14836;
 }
 
-.btn-whatsapp {
-    fill: #25d366;
+.btn-freecodecamp {
+    fill: #006400;
 }
 
 footer {
